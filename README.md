@@ -75,17 +75,6 @@ Explore our beautiful properties through our gallery:
 ![Gallery Image 3](img/gal-3.jpeg)
 ![Gallery Image 4](img/gal-4.jpeg)
 
-## Contact
-
-For any inquiries or proposals, please contact us through our website.
-
-- [Find your dream home](#)
-- [Request proposal](#)
-- [Download home planner](#)
-- [Contact us](#)
-- [Submit your property](#)
-- [Come work with us!](#)
-
 ## License
 
 &copy; 2017 Jonas Schmedtmann. Feel free to use this project for your own purposes. This does NOT apply if you plan to produce your own course or tutorials based on this project.
