@@ -43,6 +43,7 @@ The following development dependencies are used in this project:
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^11.0.0"
   }
+```
 
 ## Features
 
