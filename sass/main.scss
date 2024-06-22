@@ -5,13 +5,14 @@
 @import 'base/base';
 @import 'base/typography';
 
-@import 'components/features';
 @import 'components/gallery';
 @import 'components/homes';
 @import 'components/realtors';
 @import 'components/story';
+@import 'components/feature';
 
 @import 'layouts/container';
 @import 'layouts/header';
 @import 'layouts/sidebar';
 @import 'layouts/footer';
+@import 'layouts/features';
