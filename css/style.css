@@ -214,8 +214,26 @@ body {
   .header__btn {
     justify-self: start;
     align-self: start; }
-  .header__seeon-logos-item {
-    height: 2.5rem; }
+  .header__seeon-text {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+    grid-column-gap: 1.5rem;
+    font-size: 1.6rem;
+    color: #aaa; }
+    .header__seeon-text::before, .header__seeon-text::after {
+      display: block;
+      content: "";
+      height: 1px;
+      background-color: currentColor; }
+  .header__seeon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    justify-items: center; }
+    .header__seeon-logos-item {
+      height: 2.5rem;
+      filter: brightness(70%); }
 
 .sidebar {
   display: flex;
