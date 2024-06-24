@@ -119,6 +119,41 @@ body {
   .btn:hover {
     background-color: #B28451; }
 
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center;
+  list-style: none; }
+  .nav__link:link, .nav__link:visited {
+    display: block;
+    font-size: 1.4rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    transition: all 0.2s; }
+  .nav__link:hover, .nav__link:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-3px); }
+  .nav__link--footer:link, .nav__link--footer:visited {
+    padding: 0.5rem;
+    display: inline-block;
+    transition: all 0.3s; }
+  .nav__link--footer:hover, .nav__link--footer:active {
+    transform: translateY(-3px); }
+
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%; }
+
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
@@ -134,7 +169,8 @@ body {
 
 .footer {
   background-color: #101d2c;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  padding: 8rem; }
 
 .header {
   background-color: #54483A;
