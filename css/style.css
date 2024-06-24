@@ -19,6 +19,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
+.heading-1 {
+  font-size: 4.5rem;
+  color: #f9f7f6;
+  line-height: 1; }
+
 .heading-2 {
   font-size: 4rem;
   font-style: italic;
@@ -154,6 +159,24 @@ body {
   text-align: center;
   width: 70%; }
 
+.nav__btn {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem; }
+  .nav__btn::before, .nav__btn::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 4.5rem; }
+  .nav__btn::after {
+    transform: translateY(-1.5rem); }
+  .nav__btn::before {
+    transform: translateY(1.3rem); }
+
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
@@ -173,10 +196,30 @@ body {
   padding: 8rem; }
 
 .header {
+  display: grid;
+  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
+  justify-content: center;
+  grid-row-gap: 1.5rem;
+  padding: 8rem;
+  padding-top: 4rem;
   background-color: #54483A;
-  grid-column: full-start / col-end 6; }
+  grid-column: full-start / col-end 6;
+  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+  background-size: cover;
+  background-position: center; }
+  .header__logo {
+    height: 3rem;
+    justify-self: center; }
+  .header__btn {
+    justify-self: start;
+    align-self: start; }
+  .header__seeon-logos-item {
+    height: 2.5rem; }
 
 .sidebar {
+  display: flex;
+  justify-content: center;
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1; }

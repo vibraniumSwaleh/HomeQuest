@@ -1,0 +1,25 @@
+.nav__btn {
+  border: none;
+  border-radius: 0;
+
+  background-color: $color-white;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    background-color: $color-white;
+    height: 2px;
+    width: 4.5rem;
+  }
+
+  &::after {
+    transform: translateY(-1.5rem);
+  }
+  &::before {
+    transform: translateY(1.3rem);
+  }
+}
