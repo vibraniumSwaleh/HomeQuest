@@ -58,9 +58,14 @@ body {
   background-color: #54483A;
   grid-column: full-start / full-end; }
 
-.homes {
-  background-color: #101d2c;
-  grid-column: center-start / center-end; }
+.home {
+  background-color: #f9f7f6; }
+  .home .home__location svg, .home .home__rooms svg, .home .home__area svg, .home .home__price svg {
+    fill: #c69963;
+    height: 2rem;
+    width: 2rem; }
+  .home__img {
+    width: 100%; }
 
 .realtors {
   background-color: #101d2c;
@@ -139,6 +144,13 @@ body {
 .story__text {
   font-size: 1.5rem;
   font-style: italic; }
+
+.homes {
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem; }
 
 .mb-sm {
   margin-bottom: 2rem; }

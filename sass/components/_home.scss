@@ -1,0 +1,40 @@
+.home {
+  background-color: $color-grey-light-1;
+
+  %svg {
+    svg {
+      fill: $color-primary;
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__like {
+  }
+
+  &__name {
+  }
+
+  &__location {
+    @extend %svg;
+  }
+  
+  &__rooms {
+    @extend %svg;
+  }
+  
+  &__area {
+    @extend %svg;
+  }
+  
+  &__price {
+    @extend %svg;
+    
+    p {
+    }
+  }
+}
